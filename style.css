@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 20px;
+    background-color: crimson;
+    border-radius: 15px 4px;
+}
+
+.info1 {
+    background-color: lightpink;
+    font-size: 14px;
+    width: 290px;
+    height: 40px;
+    border-radius: 30px 60px 35px 15px;
+    text-decoration: none;
+}
+
+.info2 {
+    font-weight: 700;
+    padding: 15px;
+    height: 150px;
+    width: 290px;
+    background-image: linear-gradient(to right top, #e83199, #cf30a3, #b234ac, #9139b1, #693db4, #6c3bb3, #6f3ab3, #7238b2, #9e2dab, #c21ca0, #e00990, #f80d7e);
+    border-radius: 52% 48% 43% 57% / 34% 35% 65% 66%;
+    animation: animate 2s infinite;
+    transition: 0.4s ease-in-out;
+}
+
+#ptag {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+@keyframes animate {
+    0% {
+        border-radius: 52% 48% 92% 8% / 34% 65% 35% 66%;
+    }
+    25%{
+        border-radius: 18% 82% 42% 58% / 54% 15% 85% 46%;
+    }
+
+    50% {
+        border-radius: 1% 99% 6% 94% / 79% 9% 91% 21%;
+    }
+    75% {
+        border-radius: 42% 58% 82% 18% / 46% 58% 42% 54%;
+    }
+
+    100% {
+        border-radius: 71% 29% 46% 54% / 29% 55% 45% 71%;
+    }
+}
+
+
+#input1 {
+    width: 400px;
+    height: 20px;
+    font-weight: bold;
+    background-color: #f80d7e;
+    color: #6c3bb3;
+}
+
+.start {
+    background-color: #6c3bb3;
+    color: #f80d7e;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.status {
+    background-color: #f80d7e;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: 01s;
+}
+
+#objectresult {
+    background-color: #6c3bb3;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: 01s
+}
+
+.start:hover {
+    color: #6c3bb3;
+    background-color: #f80d7e;
+}
+
+.status:hover {
+    background-color: #6c3bb7;
+}
+
+.objectresult:hover {
+    background-color: #f80d7e;
+}
+
+form {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.status, #objectresult {
+    position: relative;
+}
